@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+body{
+background: white;
+  color: black;
+}
+.main{
+  padding: 0 100px;
+}
+.nav{
+  
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+
+}
+.nav a{
+  padding-right: 50px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+
+}
+.navbtn button{
+  padding: 10px 14px;
+  background: #000;
+  color: wheat;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  transition: all ease 0.2s;
+   cursor: pointer;
+}
+.navbtn button:active{
+  scale: 0.96;
+}
+.section{
+ height: 75vh;
+  width: 100%;
+    background-image: url(https://media.licdn.com/dms/image/v2/D4E12AQG7jK2aYpY1NA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1679578350320?e=2147483647&v=beta&t=_E7Uyhmr2X_pZbC2vMUhmc1VPw9b6hbtV0SOc_Zo-cw);
+  background-size: cover;      
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+ 
+}
+.center{
+  width: 60%;
+  height:100% ;
+  padding-top: 75px;
+  margin: 0 auto;
+
+color: white;
+
+  text-align: center;
+
+}
+.center h1{
+  
+   font-family:Arial, Helvetica, sans-serif
+   'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.center p{
+  font-size: 1.1rem;
+  opacity: 0.8;
+
+margin-bottom: 14px;
+}
+.center button{
+  background: black;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.sec2{
+  /* background: palevioletred  ; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 27px 20px;
+}
+.Secright{
+  /* background: red; */
+  width: 50%;
+}
+.Secright p{
+  width: 80%;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+.Sec2left{
+  /* background: grey; */
+  width: 50%;
+  
+}
+.Sec2left button{
+  padding: 8px 15px;
+  border-radius: 15px;
+  border: 2px solid wheat ;
+  background: white;
+}
+.cards{
+  /* background: darkcyan; */
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 23px;
+  padding: 0 30px;
+}
+.first{
+  height: 280px;
+  width: 400px;
+  background: #000409;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 20px;
+}
+.gola{
+  height: 40px;
+  width: 40px;
+  background: white;
+  border-radius: 50%;
+}
+.first  h3{
+  font-size: 1.6rem;
+  /* background: red; */
+}
+.first h3 span{
+  opacity: 0.8;
+  color: #6f6a6af3;
+}
+.inner{
+  display: flex;
+  align-items: center;
+  /* background: red; */
+  gap: 25px;
+}
+.sqr{
+  height: 25px;
+  width: 60px;
+  background: #73B3CF;
+  border-radius: 25px;
+ position: relative;;
+}
+.sqr .r{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  right: 0;
+ 
+ 
+}
+.text h4{
+  font-size: 1.4rem;
+  font-weight: 400;
+
+}
+.secend {
+  height: 280px;
+  width: 400px;
+  background-image: url(https://plus.unsplash.com/premium_photo-1679440415215-cd5572662828?q=80&w=688&auto=format&fit=crop);
+  background-size: cover;
+  background-position: top;
+ border-radius: 20px;
+}
+
+.third{
+    height: 280px;
+  width: 400px;
+  background: white;
+  border-radius: 20px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+/* .bottom{
+  background: red;
+
+} */
+.third .top h1{
+  font-size: 3.5rem;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.third .top h4{
+  font-size: 1.3rem;
+ opacity: 0.9;
+ margin-bottom: 5px;
+}
+.third .top p{
+  font-size: 1rem;
+ opacity: 0.9;
+}
+.third .bottom .a p{
+  font-size: 0.8rem;
+}
+.third .bottom .b {
+  display: flex;
+  gap: 4px;
+}
+.dst{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* background: palevioletred; */
+  margin-bottom: 5px;
+}
+.third .bottom .b .dot{
+  height: 12px;
+  width: 12px;
+  background: #73B3CF;
+  border-radius: 50%;
+  
+}
+
